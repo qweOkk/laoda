@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="laoda" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="90b67890-7cc8-4e47-9bcf-1fabfbf56ff4" name="变更" comment="update" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Wt0RNlRAgBZII1kc5nVZ7IWuuc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/64703/IdeaProjects/VedioPlayer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.runner&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\64703\IdeaProjects\laoda\src\main\resources\org\example\images" />
+      <recent name="C:\Users\64703\IdeaProjects\laoda\src\main\resources\org\example\scenes" />
+      <recent name="C:\Users\64703\IdeaProjects\laoda\src\main\resources\org\example" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\64703\IdeaProjects\laoda\target\laoda" />
+      <recent name="C:\Users\64703\IdeaProjects\laoda\src\main\java\org\example" />
+      <recent name="C:\Users\64703\IdeaProjects\laoda\src\main\resources\org\example\utils" />
+      <recent name="C:\Users\64703\IdeaProjects\laoda\src\main\resources" />
+      <recent name="C:\Users\64703\IdeaProjects\laoda\src\main\resources\org\example\scenes" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.example.scenes" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\64703\.jdks\openjdk-19.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="laoda" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml,javafx.media" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\64703\.jdks\openjdk-19.0.1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="laoda" />
+      <option name="VM_PARAMETERS" value="--module-path ${PATH_TO_FX} --add-modules javafx.controls,javafx.fxml,javafx.media" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="laoda-1.0-SNAPSHOT-shaded.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/laoda-1.0-SNAPSHOT-shaded.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="laoda.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/laoda/laoda.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration name="laoda.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/laoda.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="laoda [javafx:jlink]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:jlink" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="laoda [javafx:run]" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="javafx:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JAR 应用程序.laoda-1.0-SNAPSHOT-shaded.jar" />
+      <item itemvalue="JAR 应用程序.laoda.jar (1)" />
+      <item itemvalue="JAR 应用程序.laoda.jar" />
+      <item itemvalue="Maven.laoda [javafx:jlink]" />
+      <item itemvalue="Maven.laoda [javafx:run]" />
+      <item itemvalue="应用程序.Main" />
+      <item itemvalue="应用程序.App" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR 应用程序.laoda-1.0-SNAPSHOT-shaded.jar" />
+        <item itemvalue="应用程序.App" />
+        <item itemvalue="JAR 应用程序.laoda.jar (1)" />
+        <item itemvalue="JAR 应用程序.laoda.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="90b67890-7cc8-4e47-9bcf-1fabfbf56ff4" name="变更" comment="" />
+      <created>1697536559837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697536559837</updated>
+      <workItem from="1697536561020" duration="24000" />
+      <workItem from="1697536784991" duration="541000" />
+      <workItem from="1697537342259" duration="5092000" />
+      <workItem from="1697542904551" duration="11371000" />
+      <workItem from="1697585748971" duration="804000" />
+      <workItem from="1697587992349" duration="100000" />
+      <workItem from="1697595186233" duration="5952000" />
+      <workItem from="1697604916904" duration="732000" />
+      <workItem from="1697612956624" duration="83000" />
+      <workItem from="1697613539094" duration="2189000" />
+      <workItem from="1697623328802" duration="1342000" />
+      <workItem from="1697625750479" duration="2389000" />
+      <workItem from="1697634234938" duration="9383000" />
+      <workItem from="1697680754129" duration="10719000" />
+      <workItem from="1697693073381" duration="251000" />
+      <workItem from="1697693340206" duration="1320000" />
+      <workItem from="1697694665172" duration="2000" />
+      <workItem from="1697694676016" duration="1020000" />
+      <workItem from="1697695786212" duration="1879000" />
+      <workItem from="1697698016114" duration="1910000" />
+      <workItem from="1697699955718" duration="2771000" />
+      <workItem from="1697703705007" duration="1240000" />
+      <workItem from="1697705057308" duration="2748000" />
+      <workItem from="1697720959804" duration="9778000" />
+      <workItem from="1697763844223" duration="7167000" />
+      <workItem from="1697784432600" duration="4881000" />
+      <workItem from="1697789379524" duration="1967000" />
+      <workItem from="1697802380461" duration="3798000" />
+      <workItem from="1697806205415" duration="628000" />
+      <workItem from="1697810140052" duration="1035000" />
+      <workItem from="1697813095377" duration="2685000" />
+      <workItem from="1697815809110" duration="3669000" />
+      <workItem from="1697858722464" duration="5000" />
+      <workItem from="1697941350564" duration="480000" />
+      <workItem from="1697944168370" duration="633000" />
+      <workItem from="1697957950698" duration="1391000" />
+      <workItem from="1698044841146" duration="70000" />
+      <workItem from="1698045021059" duration="920000" />
+      <workItem from="1698053470253" duration="4773000" />
+      <workItem from="1698059147730" duration="1371000" />
+    </task>
+    <task id="LOCAL-00001" summary="new">
+      <created>1697816141988</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697816141988</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <created>1697816281042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1697816281042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new">
+      <created>1697816399397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697816399397</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new">
+      <created>1697816464564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1697816464564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new">
+      <created>1697816475020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1697816475020</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new">
+      <created>1697817777783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1697817777783</updated>
+    </task>
+    <task id="LOCAL-00007" summary="new">
+      <created>1697818033138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1697818033138</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new">
+      <created>1697818457070</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1697818457070</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="javafx.scene.media.MediaPlayer" memberName="currentTime" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="rate" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

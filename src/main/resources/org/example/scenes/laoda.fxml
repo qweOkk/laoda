@@ -13,45 +13,24 @@
 <?import javafx.scene.media.MediaView?>
 <?import javafx.scene.text.Font?>
 
-<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="959.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.scenes.laodaController">
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="514.0" prefWidth="959.0" style="-fx-background-color:#ffffff;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.scenes.laodaController">
    <children>
-      <Label fx:id="ReSuccess" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="34.0" layoutY="149.0" prefHeight="136.0" prefWidth="296.0" text="复活成功！" textFill="#721d1d" visible="false">
+      <Label fx:id="ReSuccess" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="37.0" layoutY="96.0" prefHeight="136.0" prefWidth="296.0" text="复活成功！" textFill="#721d1d" visible="false">
          <font>
             <Font size="50.0" />
          </font>
       </Label>
-      <Button fx:id="ButtonOne" layoutX="658.0" layoutY="465.0" mnemonicParsing="false" onMouseClicked="#handle" prefHeight="51.0" prefWidth="88.0" text="1" textAlignment="CENTER">
-         <font>
-            <Font size="29.0" />
-         </font>
-      </Button>
-      <ImageView fx:id="pictureOfLaoda" fitHeight="331.0" fitWidth="250.0" layoutX="67.0" layoutY="73.0" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="pictureOfLaoda" fitHeight="360.0" fitWidth="320.0" layoutY="-2.0" opacity="0.0" pickOnBounds="true" smooth="false">
          <image>
-            <Image url="@../images/images.jpg" />
+            <Image url="@../images/kobe.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="625.0" layoutY="384.0" prefHeight="95.0" prefWidth="179.0" text="扣一复活老大！" textAlignment="CENTER">
-         <font>
-            <Font size="25.0" />
-         </font>
-      </Label>
-      <ProgressBar fx:id="RecurProgress" layoutX="67.0" layoutY="420.0" prefHeight="23.0" prefWidth="230.0" progress="0.0" />
-
-      <Label layoutX="67.0" layoutY="456.0" prefHeight="32.0" prefWidth="81.0" text="复活进度：">
-         <font>
-            <Font size="14.0" />
-         </font></Label>
-      <Label fx:id="ProgressLabel" layoutX="135.0" layoutY="460.0" prefHeight="23.0" prefWidth="52.0" text="0%">
-         <font>
-            <Font size="14.0" />
-         </font></Label>
-      <ImageView fitHeight="199.0" fitWidth="154.0" layoutX="605.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <ImageView fitHeight="199.0" fitWidth="154.0" layoutX="608.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true" visible="false">
          <image>
             <Image url="@../images/NaiShuai.jpg" />
          </image>
       </ImageView>
-      <ComboBox fx:id="comboBox" layoutX="401.0" layoutY="420.0" prefHeight="23.0" prefWidth="134.0" visibleRowCount="100" />
-      <MediaView fx:id="Audio" fitHeight="360.0" fitWidth="640.0" layoutX="305.0" layoutY="44.0" preserveRatio="false">
+      <MediaView fx:id="Audio" fitHeight="360.0" fitWidth="640.0" layoutX="320.0" layoutY="-2.0" preserveRatio="false">
          <mediaPlayer>
             <MediaPlayer>
                <media>
@@ -64,15 +43,61 @@
             </MediaPlayer>
          </mediaPlayer>
       </MediaView>
-      <ImageView fx:id="back" fitHeight="360.0" fitWidth="640.0" layoutX="305.0" layoutY="44.0" pickOnBounds="true" smooth="false" visible="false">
+      <ImageView fx:id="back" fitHeight="360.0" fitWidth="640.0" layoutX="320.0" layoutY="-2.0" pickOnBounds="true" smooth="false" visible="false">
          <image>
             <Image url="@../images/back.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="334.0" layoutY="420.0" prefHeight="23.0" prefWidth="81.0" text="复活速度:">
-         <font>
-            <Font size="14.0" />
-         </font>
-      </Label>
+      <Pane layoutX="1.0" layoutY="358.0" prefHeight="157.0" prefWidth="959.0" style="-fx-background-color:#f5e6ab;">
+         <children>
+            <Label layoutX="328.0" layoutY="21.0" prefHeight="23.0" prefWidth="81.0" text="复活速度:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="comboBox" layoutX="395.0" layoutY="21.0" prefHeight="23.0" prefWidth="134.0" visibleRowCount="100" />
+            <Label fx:id="ProgressLabel" layoutX="95.0" layoutY="50.0" prefHeight="23.0" prefWidth="52.0" text="0%">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+      
+            <Label layoutX="21.0" layoutY="45.0" prefHeight="32.0" prefWidth="81.0" text="复活进度：">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ProgressBar fx:id="RecurProgress" layoutY="21.0" prefHeight="23.0" prefWidth="320.0" progress="0.0" />
+            <Label fx:id="laodaLabel" layoutX="562.0" layoutY="-15.0" prefHeight="95.0" prefWidth="179.0" text="扣一复活老大！" textAlignment="CENTER">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Button fx:id="ButtonOne" layoutX="608.0" layoutY="61.0" mnemonicParsing="false" onMouseClicked="#handle" prefHeight="51.0" prefWidth="88.0" text="1" textAlignment="CENTER">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Button>
+            <Pane fx:id="ResPane" layoutX="552.0" layoutY="-4.0" prefHeight="165.0" prefWidth="200.0" visible="false">
+               <children>
+                  <Label layoutX="11.0" layoutY="14.0" prefHeight="48.0" prefWidth="179.0" text="是否继续复活？">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="ClickYesButton" layoutX="11.0" layoutY="83.0" mnemonicParsing="false" onAction="#ClickYes" prefHeight="48.0" prefWidth="81.0" text="是">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ClickNoButton" layoutX="105.0" layoutY="83.0" mnemonicParsing="false" onAction="#ClickNo" prefHeight="48.0" prefWidth="81.0" text="否">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
    </children>
 </Pane>

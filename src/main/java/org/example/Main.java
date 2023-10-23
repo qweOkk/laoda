@@ -24,29 +24,13 @@ public class Main extends Application{
 
     private Stage primaryStage;
     private static MediaPlayer mediaPlayer;
-    private List<Double> doubles = DoubleStream
-            .iterate(1.0,x->x+0.02)
-            .limit(10)
-            .map(x->Double.valueOf(String.format("%.2f",x)))
-            .boxed()
-            .collect(Collectors.toList());
-    private ComboBox<Double> comboBox = new ComboBox<>(FXCollections.observableList(doubles));
     @Override
     public void start(Stage primaryStage) throws Exception {
         this.primaryStage = primaryStage;
         this.primaryStage.setTitle("想你了，老大！");
         showLoginView();
     }
-    @Override
-    public void init() throws Exception{
-        comboBox.valueProperty().addListener(new ChangeListener<Double>() {
-            @Override
-            public void changed(ObservableValue<? extends Double> observable, Double oldValue, Double newValue) {
-                mediaPlayer.setRate(newValue);
-                //System.out.println(mPlayer.getAudioSpectrumListener());
-            }
-        });
-    }
+
 
     public void showLoginView() {
         try {
@@ -72,7 +56,7 @@ public class Main extends Application{
             //comboBox.setLayoutX(268);
             //comboBox.setLayoutY(373);
             //pane.getChildren().add(comboBox);
-            //primaryStage.setOnCloseRequest(event -> mediaPlayer.stop());
+            //primaryStage.setOnCloseRequest(event -> p);
             primaryStage.show();
 
         } catch (IOException e) {

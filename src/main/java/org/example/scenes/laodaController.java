@@ -1,9 +1,12 @@
 package org.example.scenes;
 
+import javafx.animation.RotateTransition;
+import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.beans.value.ChangeListener;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
+import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -16,6 +19,7 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 import javafx.scene.media.MediaView;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import org.example.Main;
 
 import java.io.File;
@@ -49,10 +53,19 @@ public class laodaController implements Initializable {
     //   private List<Double> doubles = List.of(1.0,2.0,5.0,10.0,20.0,100.0);
     @FXML
     private ComboBox<Integer> comboBox ;
+    @FXML
+    private Button ClickNoButton;
+
+    @FXML
+    private Button ClickYesButton;
+    @FXML
+    private Pane ResPane;
+    @FXML Label laodaLabel;
+
     private double op=0;
     private int isclick=0;
-
-
+    private double Rt=0;
+    private RotateTransition rotateTransition;
    /* @FXML
     public void initialize() {
 
@@ -80,7 +93,7 @@ public class laodaController implements Initializable {
 
         comboBox.getItems().setAll(1,2,5,10,20,100);
         comboBox.setValue(1);
-
+        rotateTransition = new RotateTransition(Duration.seconds(0.10), back);
 
     }
 
@@ -91,10 +104,12 @@ public class laodaController implements Initializable {
     @FXML
     public void handle(MouseEvent mouseEvent) {
 
-        ReSuccess.setVisible(false);
-        back.setVisible(false);
+
         double items=(comboBox.getValue());
         items/=100;
+        if(op<0.001){
+            op=0;
+        }
         //System.out.println(items);
         op = op + items;
         if((op-1)>0.01){
@@ -116,12 +131,45 @@ public class laodaController implements Initializable {
         if ((op - 1) < 0.001 && (1 - op) < 0.001) {
             ReSuccess.setVisible(true);
             back.setVisible(true);
-            op = -items;
-
+            laodaLabel.setVisible(false);
+            ButtonOne.setVisible(false);
+            ResPane.setVisible(true);
             pictureOfLaoda.setOpacity(0);
-            RecurProgress.setProgress(0);
+            //RecurProgress.setProgress(0);
         }
     }
 
+    @FXML
+    void ClickNo(ActionEvent event) {
+
+
+
+        //back.setRotate(Rt);
+        rotateTransition.setFromAngle(0);
+        rotateTransition.setToAngle(360);
+
+        rotateTransition.setCycleCount(Timeline.INDEFINITE);
+
+        rotateTransition.setAutoReverse(false);
+
+        rotateTransition.play();
+
+    }
+
+    @FXML
+    void ClickYes(ActionEvent event) {
+        rotateTransition.stop();
+        back.setRotate(0);
+        op=0;
+        Rt=0;
+        Audio.getMediaPlayer().setRate(1);
+        ReSuccess.setVisible(false);
+        back.setVisible(false);
+        RecurProgress.setProgress(0);
+        ProgressLabel.setText("0%");
+        ResPane.setVisible(false);
+        laodaLabel.setVisible(true);
+        ButtonOne.setVisible(true);
+    }
 
 }
